@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +11,15 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// компонент простыми словами?
+// componens, род. п. componentis «составляющий») — составная часть, элемент чего-либо.
+
+// для чего используются компоненты?
+// Компоненты - это подразделы проекта. Они используются для группировки задач 
+// внутри проекта на более мелкие части.
+
+// Компоненты React – это самодостаточные элементы, которые можно использовать
+// на странице любое количество раз. Во многом компоненты ведут себя как 
+// обычные JavaSript функции.Они принимают входные данные, так называемые 
+// props, и возвращают React-элементы, описывающие то, что мы хотим увидеть
+// на экране.
