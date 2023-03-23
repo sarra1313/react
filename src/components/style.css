@@ -1,0 +1,30 @@
+/* это относиться к Card с фруктами */
+/* 14ый-- начинаем давать стиль, пишем .container и тд 
+но ещё его надо соединить с container, идём туда*/
+.container{
+    display: flex;
+    /*16ый- (flex-wrap: wrap)- это чтоб они размещались равномено и переходили на следующую строку */
+    flex-wrap: wrap;
+    /*17ый- (padding)--это чтоб между ними было расстояние, отступ */
+    padding: 0 50px;
+    /* 18ый-- чтоб картинки находились по центру страницы*/
+    justify-content: center;
+    /* меняем расстояние между кардами через gap */
+gap: 60px;
+}
+/* 20ый -- даём стиль Card-у через wrapper */
+.wrapper{
+    /* background-color:palegreen ; -- мы убрали, ик здесь он не нужен*/ 
+text-align: center;
+}
+
+/* 22ой--даём стиль wrapper h1 */
+.wrapper h1{
+    color: saddlebrown;
+    font-size: 40px;
+}
+/* 23ой--даём стиль wrapper h4 */
+.wrapper h4{
+    color:darkgreen;
+    font-size: 30px;
+}

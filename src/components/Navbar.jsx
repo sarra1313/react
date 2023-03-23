@@ -1,7 +1,17 @@
-import React from 'react'
+// import React from 'react'
 
-export default function Navbar() {
-  return (
-    <div>Navbar</div>
-  )
-}
+// const title = "Group 4";
+// // export function Navbar(props) {
+// //   console.log(props);
+// //     return (
+// //     <div>{props.title}</div>
+// //   )
+// // }
+
+// //  можно написать и без props
+// export function Navbar({title:a}) {
+//       return (
+//       <div>{a}</div>
+//     )
+//   }
+  

@@ -1,0 +1,5 @@
+/* 11ый--прописываем общие стили */
+*{
+    margin: 0;padding: 0;box-sizing:border-box ;
+}
+/* 12ый--переходим в Container.jsx */
